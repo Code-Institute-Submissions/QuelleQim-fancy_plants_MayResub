@@ -1,0 +1,100 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Beginner box",
+            "description": "A plant box subscription for beginners. Contains 1 medium and 2 small sized plants.",
+            "price": 29.99,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "https://unsplash.com/photos/bLgWa9b0ioY",
+            "image": "peter-zagar-bLgWa9b0ioY-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "ZZ plant",
+            "description": "Perfect for the shady corner or hallway, this plant thrives with little to no sunlight. Since it's so durable it a perfect fit for the beginner planter. ",
+            "price": 14.99,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "https://unsplash.com/photos/7QyOFJoungI",
+            "image": "uljana-maljutina-7QyOFJoungI-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "Small parlour palm",
+            "description": "A small and palm with beautiful foliage. Likes semi-shade and a moit enviroment.",
+            "price": 205.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://unsplash.com/photos/olvdBsHT1bA",
+            "image": "kara-eads-olvdBsHT1bA-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "Potting soil",
+            "description": "A great versitile potting soil for most plants. Contains perlite, compost,coco-fiber, charcoal and a small dosage of fertilizer.",
+            "price": 14.99,
+            "category": 4,
+            "rating": 3.0,
+            "image_url": "https://unsplash.com/photos/BduDcrySLKM",
+            "image": "neslihan-gunaydin-BduDcrySLKM-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "Small green glazed pot",
+            "description": "A lovely and small pot. It's green wit ha light green speckle on the top and bottom of the pot.",
+            "price": 19.99,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "https://unsplash.com/photos/2RyuA0imp5k",
+            "image": "brina-blum-2RyuA0imp5k-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "Golden watering can",
+            "description": "Beautiful and modern watering can in metal. Holds 1 litre of water.",
+            "price": 17.99,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "https://unsplash.com/photos/AmI0d5QoaEg",
+            "image": "https://unsplash.com/photos/AmI0d5QoaEg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Lace aloe",
+            "description": "Finally we have aloes in the shop! This small, prickly and green aloe is a easily cared for aloe. It dosen't require alot of attention and keeps its beautiful colors and leaves all year.",
+            "price": 59.0,
+            "category": 7,
+            "rating": 4.3,
+            "image_url": "https://unsplash.com/photos/T0inbt7nRME",
+            "image": "stephanie-harvey-T0inbt7nRME-unsplash.jpg"
+        }
+    }
+]
