@@ -22,7 +22,7 @@
                 Subscriptions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">All Subscriptions</a>
+                <a href="{% url 'products' %}?category=subscription_box" class="dropdown-item">All Subscriptions</a>
                 <a href="" class="dropdown-item">Beginners box</a>
                 <a href="" class="dropdown-item">Intermediate box</a>
                 <a href="" class="dropdown-item">Plant master box</a>
@@ -34,9 +34,9 @@
                 Plants & pots
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Plants</a>
-                <a href="" class="dropdown-item">Pots</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=plants" class="dropdown-item">Plants</a>
+                <a href="{% url 'products' %}?category=pots" class="dropdown-item">Pots</a>
+                <a href="{% url 'products' %}?category=tools" class="dropdown-item">Accessories</a>
             </div>
         </li>
 
