@@ -96,8 +96,15 @@ and subscriptions.
 - 
 
 ##### New Arraivals Category
-- Image of  made by  and retrived from [unsplash]().
+- Image of Lace aloe made by Stephanie Harvey and retrived from [unsplash](https://unsplash.com/photos/T0inbt7nRME).
 
 
 
 ### Acknowledgements 
+This project recived visuall and structual inspiration from these webpages:
+
+- [Grönväxtriket](https://gronvaxtriket.se/)
+- [The Sill](https://www.thesill.com/)
+- [Plantrédo](https://www.plantredo.com/)
+- [Plantagen](https://www.plantagen.se/)
+- [Blomsterlandet](https://www.blomsterlandet.se/vaxter/)
