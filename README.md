@@ -69,8 +69,33 @@ and subscriptions.
 
 - Webpage background image made by Mitchel Lensink and retrived from [unsplash](https://unsplash.com/photos/DFIl2Kw6ulw).
 
-- 
+
+
+##### Subscriptions boxes Category
+- Beginner box made by Peter Žagar and retrived from [unsplash](https://unsplash.com/photos/bLgWa9b0ioY).
+
+- Medium box made by Chris Abney and retrived from [unsplash](https://unsplash.com/photos/qLW70Aoo8BE).
+
+- Plant Master Box made by  and retrived from [unsplash]().
+
+##### Plants Category
+
+
+##### Pots Category
+
+
+##### Tools Category
+
+
+##### Accessories Category
+
+
+##### Clearance Category
+
+
+##### New Arraivals Category
 
 
 
-### Acknowledgements
+
+### Acknowledgements 
