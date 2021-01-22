@@ -76,25 +76,27 @@ and subscriptions.
 
 - Medium box made by Chris Abney and retrived from [unsplash](https://unsplash.com/photos/qLW70Aoo8BE).
 
-- Plant Master Box made by  and retrived from [unsplash]().
+- Plant Master Box made by Katya Austin and retrived from [unsplash](https://unsplash.com/photos/4Vg6ez9jaec).
 
 ##### Plants Category
-
+- Image of zz plant made by Uljana Maljutina and retrived from [unsplash](https://unsplash.com/photos/7QyOFJoungI).
+- Image of fiddle-leaf fig tree made by Lauren Mancke and retrived from [unsplash](https://unsplash.com/photos/DpphPG9ENsI).
 
 ##### Pots Category
-
+- Image of small green glazed pot made by Brina Blum and retrived from [unsplash](https://unsplash.com/photos/2RyuA0imp5k).
 
 ##### Tools Category
-
+- Image of golden watering can made by Emily Underworld and retrived from [unsplash](https://unsplash.com/photos/AmI0d5QoaEg).
 
 ##### Accessories Category
-
+- Image of potting soil made by Neslihan Gunaydin and retrived from [unsplash](https://unsplash.com/photos/BduDcrySLKM).
 
 ##### Clearance Category
-
+- Image of small parlor palm made by Kara Eads and retrived from [unsplash](https://unsplash.com/photos/olvdBsHT1bA).
+- 
 
 ##### New Arraivals Category
-
+- Image of  made by  and retrived from [unsplash]().
 
 
 
