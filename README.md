@@ -87,6 +87,8 @@ and subscriptions.
 
 ##### Tools Category
 - Image of golden watering can made by Emily Underworld and retrived from [unsplash](https://unsplash.com/photos/AmI0d5QoaEg).
+-  Image of wood handle trowel made by gryffyn m and retrived from [unsplash](https://unsplash.com/photos/JR7IPWMMXcc)
+- Image of pruning shears made by lilzidesigns and retrived from [unsplash](https://unsplash.com/photos/RjTJBhtjHSY)
 
 ##### Accessories Category
 - Image of potting soil made by Neslihan Gunaydin and retrived from [unsplash](https://unsplash.com/photos/BduDcrySLKM).
