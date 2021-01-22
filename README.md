@@ -81,13 +81,14 @@ and subscriptions.
 ##### Plants Category
 - Image of zz plant made by Uljana Maljutina and retrived from [unsplash](https://unsplash.com/photos/7QyOFJoungI).
 - Image of fiddle-leaf fig tree made by Lauren Mancke and retrived from [unsplash](https://unsplash.com/photos/DpphPG9ENsI).
+- Image of string of hearts made by Severin Candrian and retrived from [unsplash](https://unsplash.com/photos/xGpYDi-0348).
 
 ##### Pots Category
 - Image of small green glazed pot made by Brina Blum and retrived from [unsplash](https://unsplash.com/photos/2RyuA0imp5k).
 
 ##### Tools Category
 - Image of golden watering can made by Emily Underworld and retrived from [unsplash](https://unsplash.com/photos/AmI0d5QoaEg).
--  Image of wood handle trowel made by gryffyn m and retrived from [unsplash](https://unsplash.com/photos/JR7IPWMMXcc)
+- Image of wood handle trowel made by gryffyn m and retrived from [unsplash](https://unsplash.com/photos/JR7IPWMMXcc)
 - Image of pruning shears made by lilzidesigns and retrived from [unsplash](https://unsplash.com/photos/RjTJBhtjHSY)
 
 ##### Accessories Category
