@@ -1,4 +1,11 @@
 # Fancy plants
+Welcome to the README file of the project Fancy Plants.
+
+This is the fourth and final school project of the Code Institute 
+fulsstack developer course. This projects main purpose is to display my
+skills in HTML, CSS, Bootstrap, Python and Django. The webpage named
+Fancy Plants is a online store that aims to sell plant related products
+and subscriptions.
 
 
 ## UX/UI
