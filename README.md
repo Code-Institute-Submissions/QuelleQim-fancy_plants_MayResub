@@ -85,6 +85,8 @@ and subscriptions.
 
 ##### Pots Category
 - Image of small green glazed pot made by Brina Blum and retrived from [unsplash](https://unsplash.com/photos/2RyuA0imp5k).
+- Image of small light blue ceramic pot made by Galina N and retrived from [unsplash](https://unsplash.com/photos/miziNqvJx5M).
+- Image of big terra cotta pot and saucer made by Brina Blum and retrived from [unsplash](https://unsplash.com/photos/ArCgAeF5_Wk).
 
 ##### Tools Category
 - Image of golden watering can made by Emily Underworld and retrived from [unsplash](https://unsplash.com/photos/AmI0d5QoaEg).
