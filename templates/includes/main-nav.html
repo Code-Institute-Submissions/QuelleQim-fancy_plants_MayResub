@@ -36,7 +36,8 @@
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="{% url 'products' %}?category=plants" class="dropdown-item">Plants</a>
                 <a href="{% url 'products' %}?category=pots" class="dropdown-item">Pots</a>
-                <a href="{% url 'products' %}?category=tools" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=tools" class="dropdown-item">Tools</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
             </div>
         </li>
 
@@ -45,10 +46,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
             </div>
         </li>
     </ul>
