@@ -103,6 +103,9 @@ and subscriptions.
 ##### New Arraivals Category
 - Image of Lace aloe made by Stephanie Harvey and retrived from [unsplash](https://unsplash.com/photos/T0inbt7nRME).
 
+- Image of small glass vase made by Tirza van Dijk and retrived from [unsplash](https://unsplash.com/photos/cNGUw-CEsp0).
+
+- Image of hanging wooden shelf made by Severin Candrian and retrived from [unsplash](https://unsplash.com/photos/edRZ0zEBq4I).
 
 
 ### Acknowledgements 
