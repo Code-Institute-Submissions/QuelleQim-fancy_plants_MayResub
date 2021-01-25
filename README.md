@@ -73,7 +73,7 @@ and subscriptions.
 ##### Subscriptions boxes Category
 - Image of beginner box made by Peter Žagar and retrived from [unsplash](https://unsplash.com/photos/bLgWa9b0ioY).
 
-- Image of medium box made by Chris Abney and retrived from [unsplash](https://unsplash.com/photos/qLW70Aoo8BE).
+- Image of medium box made by Prudence Earl and retrived from [unsplash](https://unsplash.com/photos/NwBx723XaHw).
 
 - Image of plant Master Box made by Katya Austin and retrived from [unsplash](https://unsplash.com/photos/4Vg6ez9jaec).
 
