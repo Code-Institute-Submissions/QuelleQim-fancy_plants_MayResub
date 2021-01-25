@@ -95,8 +95,8 @@ and subscriptions.
 
 ##### Accessories Category
 - Image of potting soil made by Neslihan Gunaydin and retrived from [unsplash](https://unsplash.com/photos/BduDcrySLKM).
-- Image of  made by  and retrived from [unsplash]().
-- Image of  made by  and retrived from [unsplash]().
+- Image of glass terrarium with grow light made by David Emrich and retrived from [unsplash](https://unsplash.com/photos/Xlzx6sEoenQ).
+- Image of fancy fertilizer dropper 50 ml made by Kadarius Seegars and retrived from [unsplash](https://unsplash.com/photos/CjP0nkn6O88).
 
 ##### Clearance Category
 - Image of small parlor palm made by Kara Eads and retrived from [unsplash](https://unsplash.com/photos/olvdBsHT1bA).
@@ -110,7 +110,7 @@ and subscriptions.
 
 
 ### Acknowledgements 
-This project recived visuall and structual inspiration from these webpages:
+This project recived visual and structual inspiration from these webpages:
 
 - [Grönväxtriket](https://gronvaxtriket.se/)
 - [The Sill](https://www.thesill.com/)
