@@ -95,16 +95,17 @@ and subscriptions.
 
 ##### Accessories Category
 - Image of potting soil made by Neslihan Gunaydin and retrived from [unsplash](https://unsplash.com/photos/BduDcrySLKM).
+- Image of  made by  and retrived from [unsplash]().
+- Image of  made by  and retrived from [unsplash]().
 
 ##### Clearance Category
 - Image of small parlor palm made by Kara Eads and retrived from [unsplash](https://unsplash.com/photos/olvdBsHT1bA).
-- 
+- Image of medium glass bowl made by Scott Webb and retrived from [unsplash](https://unsplash.com/photos/6zDgwG-2520).
+- Image of happy mini pot made by Faria Anzum and retrived from [unsplash](https://unsplash.com/photos/ONK9IlKizS4).
 
 ##### New Arraivals Category
 - Image of Lace aloe made by Stephanie Harvey and retrived from [unsplash](https://unsplash.com/photos/T0inbt7nRME).
-
 - Image of small glass vase made by Tirza van Dijk and retrived from [unsplash](https://unsplash.com/photos/cNGUw-CEsp0).
-
 - Image of hanging wooden shelf made by Severin Candrian and retrived from [unsplash](https://unsplash.com/photos/edRZ0zEBq4I).
 
 
