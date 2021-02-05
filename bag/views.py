@@ -31,9 +31,7 @@ def adjust_bag(request, item_id):
     quantity = int(request.POST.get('quantity'))
     bag = request.session.get('bag', {})
 
-    # if item_id in list(bag.keys()):
-    #     bag[item_id] += quantity
-    # else:
+
     if quantity > 0:
         bag[item_id] = quantity
     else:
