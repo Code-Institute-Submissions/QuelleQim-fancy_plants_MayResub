@@ -25,7 +25,7 @@ SECRET_KEY = '-bc%(!ep+(4zutdht6g2cul^3!f19f#c@e(s)-z=4r337fn8+d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quelleqim-fancy-plants.herokuapp.com', 'localhost']
 
 
 # Application definition
