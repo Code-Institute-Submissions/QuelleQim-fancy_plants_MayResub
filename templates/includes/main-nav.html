@@ -10,18 +10,11 @@
                 All Products
             </a>
         </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=subscription_box" id="subscription-link">
                 Subscriptions
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=subscription_box" class="dropdown-item">All Subscriptions</a>
-                <a href="" class="dropdown-item">Beginners box</a>
-                <a href="" class="dropdown-item">Intermediate box</a>
-                <a href="" class="dropdown-item">Plant master box</a>
-            </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plants & more
@@ -34,7 +27,6 @@
                 <a href="{% url 'products' %}?category=plants,pots,tools,accessories" class="dropdown-item">All Plants & more</a>
             </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
