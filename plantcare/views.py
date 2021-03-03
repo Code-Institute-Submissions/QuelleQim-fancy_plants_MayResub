@@ -1,9 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.contrib import messages
 
 # Create your views here.
 
 
-def plant_care(request):
-    """ A view to return the plant care page """
+def view_plant_care(request):
+    """ A view that views the plant care page """
 
     return render(request, 'plantcare/plantcare.html')
+
