@@ -63,6 +63,10 @@ and subscriptions.
 
 ### Content
 
+- Accordion in plantcare.html from [bootstrap](https://getbootstrap.com/docs/5.0/components/accordion/).
+
+
+
 ### Media
 
 #### Images
