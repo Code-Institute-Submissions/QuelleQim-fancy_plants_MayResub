@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def plantcare(request):
-    """ A view to return the index page """
+def plant_care(request):
+    """ A view to return the plant care page """
 
     return render(request, 'plantcare/plantcare.html')
