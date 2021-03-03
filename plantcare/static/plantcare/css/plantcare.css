@@ -2,3 +2,16 @@
 .row {
     width: 100%;
 }
+
+.card-body {
+    color: black !important;
+}
+
+.card {
+    color: black;
+    margin: 20px;
+}
+
+card-div {
+    margin: 20px;
+}
