@@ -10,25 +10,25 @@ def view_plant_care(request):
     return render(request, 'plantcare/plantcare.html')
 
 
-# def water_care(request):
-#     """ A view that views the watering plant care page """
+def water_care(request):
+    """ A view that views the watering plant care page """
 
-#     return render(request, 'plantcare/water.html')
-
-
-# def sun_care(request):
-#     """ A view that views the sun plant care page """
-
-#     return render(request, 'plantcare/sun.html')
+    return render(request, 'plantcare/water.html')
 
 
-# def earth_care(request):
-#     """ A view that views the earth plant care page """
+def sun_care(request):
+    """ A view that views the sun plant care page """
 
-#     return render(request, 'plantcare/earth.html')
+    return render(request, 'plantcare/sun.html')
 
 
-# def air_care(request):
-#     """ A view that views the air plant care page """
+def earth_care(request):
+    """ A view that views the earth plant care page """
 
-#     return render(request, 'plantcare/air.html')
+    return render(request, 'plantcare/earth.html')
+
+
+def air_care(request):
+    """ A view that views the air plant care page """
+
+    return render(request, 'plantcare/air.html')
