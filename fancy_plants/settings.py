@@ -27,7 +27,8 @@ else:
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
+# 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['fancy-plants.herokuapp.com', 'localhost']
 
