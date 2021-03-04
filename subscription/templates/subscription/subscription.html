@@ -19,30 +19,43 @@
             <hr>
         </div>
     </div>
-    <p class="text-muted">Subscription Options</p>
-    <form class="mt-3" action="" method="" id="subscription-update-form">
-        <div class="form-check form-check-inline float-right mr-0">
-            {% csrf_token %}
-            {{ form|crispy }}
-            <label class="form-check-label" for="id-save-info">Low Light</label>
-            <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
-            <br>
-            <label class="form-check-label" for="id-save-info">Low Humidity</label>
-            <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
-            <br>
-            <label class="form-check-label" for="id-save-info">Pet Friendly</label>
-            <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
-            <br>
-            <br>
-            <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <h4>Subscription Options</h4>
+            <p>Enter your subscription options here if you have bought a subscription box from us and we will
+                send you a box that suits your needs!</p>
+            <p class="text-muted">* Enter only if you have purchased a subscription box.</p>
+            <form class="mt-3" action="" method="" id="subscription-update-form">
+                <div class="form-check form-check-inline float-right mr-0">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <label class="form-check-label" for="id-save-info">Low Light</label>
+                    <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
+                    <br>
+                    <label class="form-check-label" for="id-save-info">Low Humidity</label>
+                    <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
+                    <br>
+                    <label class="form-check-label" for="id-save-info">Pet Friendly</label>
+                    <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info">
+                    <br>
+                    <br>
+                    <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
+                </div>
+            </form>
         </div>
-    </form>
-</div>
+        <div class="col-12 col-lg-6 order-lg-last mb-5">
+            <h4>Previous Boxes</h4>
+            <p>Here you will see the content of your boxes.</p>
+            <p class="text-muted">* Only visible after purchasing a subscription box. We send our boxes at the end of
+                each month.</p>
+
+        </div>
+    </div>
 
 
-{% endblock %}
+    {% endblock %}
 
-{% block postloadjs %}
-{{ block.super }}
+    {% block postloadjs %}
+    {{ block.super }}
 
-{% endblock %}
+    {% endblock %}
