@@ -147,6 +147,12 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+    text-decoration: none;
+}
+
+.to-top-arrow {
+    background-color: white;
+    padding: 12px 13px 12px 13px;
 }
 
 input[name='q']::placeholder {
@@ -180,6 +186,7 @@ input[name='q']::placeholder {
     position: absolute;
     top: -10px;
     right: 36px;
+    background-color: white;
 }
 
 /* Convenience classes - colors copied from Bootstrap */
