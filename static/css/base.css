@@ -22,6 +22,16 @@ main {
     color: honeydew !important;
 }
 
+.navbar-color {
+    background-color: #257425;
+}
+
+#topnav {
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, #257425);
+}
+
+/*  */
 
 .footer {
     background-color: black;
