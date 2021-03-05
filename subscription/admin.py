@@ -5,6 +5,9 @@ from .models import Subscription
 
 # Register your models here.
 
+
+    # Code about how to make readonly_fields with ModelAdmin comes from:
+    # https://stackoverflow.com/questions/44718355/how-show-related-object-in-django-admin-from-the-model-with-a-foreign-key-point#44725212
 class SubscriptionAdmin(admin.ModelAdmin):
     readonly_fields = ['get_order_number', 'get_full_name',
                        'get_email', 'get_date',
