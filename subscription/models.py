@@ -1,6 +1,7 @@
 from django.db import models
 from profiles.models import UserProfile
 from checkout.models import Order
+from products.models import Product
 
 # Create your models here.
 
@@ -14,6 +15,8 @@ class Subscription(models.Model):
                                      null=True, blank=True, related_name='subscriptions')
     order = models.ForeignKey(Order, null=False, blank=False,
                               on_delete=models.CASCADE, related_name='subscriptions')
+    product = models.ForeignKey(
+        Product, null=False, blank=False, on_delete=models.CASCADE)
 
     low_light = models.BooleanField()
     low_humidity = models.BooleanField()
