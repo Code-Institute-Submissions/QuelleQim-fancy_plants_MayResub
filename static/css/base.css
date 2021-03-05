@@ -60,6 +60,10 @@ main {
     color: silver;
 }
 
+.form-check-input {
+    background-color:seagreen !important;
+    border-color: black !important;
+}
 
 /* from Bulma */
 .icon {
