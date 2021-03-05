@@ -22,15 +22,34 @@ main {
     color: honeydew !important;
 }
 
-/* ----- index.html ----- */
+/* ----- index ----- */
 
 .index-front-text {
     background-color: rgb(255, 255, 255, 0.7);
     color: #5d656b;
     padding: 30px;
     border-radius: 30px;
-
 }
+
+.shop-now-button {
+    background: White;
+    color: Black;
+    border-radius: 30px !important;
+    border-color: black;
+    min-width: 260px;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+/* ----- base.html, main-nav.html, mobile-top-header.html ----- */
 
 .navbar-color {
     background-color:  #2a892a;
@@ -60,6 +79,10 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
 .custom-toggler.navbar-toggler {
   border-color: rgb(238, 255, 239, 0.8);
 } 
+
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
 
 .footer {
     /* Code for linear gradients comes from w3schools.com
@@ -124,13 +147,7 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
     width: fit-content;
 }
 
-.shop-now-button {
-    background: White;
-    color: Black;
-    border-radius: 30px !important;
-    border-color: black;
-    min-width: 260px;
-}
+/* ----- general styling ----- */
 
 .btn-black {
     background: black;
@@ -148,16 +165,6 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
 .btn-outline-black:focus {
     background: black;
     color: white !important;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
 }
 
 .text-black {
@@ -182,11 +189,6 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
 	z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
-}
-
 .btt-button {
     height: 42px;
     width: 42px;
@@ -195,11 +197,24 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-    text-decoration: none;
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
+    background-color: white;
+}
+
+/* ----- products ----- */
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 .product-links {
@@ -211,11 +226,45 @@ a.category-badge > span.badge:hover {
     padding: 12px 13px 12px 13px;
 }
 
-input[name='q']::placeholder {
-    color: #aab7c4;
+
+/* ----- Product Form ----- */
+.btn-file {
+    position: relative;
+    overflow: hidden;
 }
 
-/* ------------------------------- bootstrap toasts */
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #dc3545;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
+}
+
+/* ----- bag ----- */
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* ----- bootstrap toasts ----- */
 
 .message-container {
     position: fixed;
@@ -232,20 +281,7 @@ input[name='q']::placeholder {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
-.arrow-up {
-    width: 0; 
-    height: 0; 
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
-    position: absolute;
-    top: -10px;
-    right: 36px;
-    background-color: white;
-}
-
-/* Convenience classes - colors copied from Bootstrap */
+/* ----- Convenience classes - colors copied from Bootstrap ----- */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -284,14 +320,6 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
 /* Allauth form formatting */
 
@@ -347,36 +375,15 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
-/* Product Form */
 
-.btn-file {
-    position: relative;
-    overflow: hidden;
+/* ----- Media Queries ----- */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }
-
-.btn-file input[type="file"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.custom-checkbox .custom-control-label::before {
-    border-radius: 0;
-    border-color: #dc3545;
-}
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
-    border-radius: 0;
-}
-
-
-
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
