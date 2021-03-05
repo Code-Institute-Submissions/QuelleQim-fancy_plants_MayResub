@@ -64,9 +64,9 @@ and subscriptions.
 ### Content
 
 - Code about how to format date in subscription/admin.py comes from [programiz](https://www.programiz.com/python-programming/datetime/strftime).
-- Code about how to add readonly_fields with ModelAdmin in subscription/admin.py comes from [jnns via stackoverflow](https://stackoverflow.com/questions/44718355/how-show-related-object-in-django-admin-from-the-model-with-a-foreign-key-point#44725212)
-- Code about how to change custom color of navbar in base.css comes from[Zim via stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
-
+- Code about how to add readonly_fields with ModelAdmin in subscription/admin.py comes from [jnns via stackoverflow](https://stackoverflow.com/questions/44718355/how-show-related-object-in-django-admin-from-the-model-with-a-foreign-key-point#44725212).
+- Code about how to change custom color of navbar in base.css comes from[Zim via stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color).
+- Code for linear gradients in base.css comes from [w3schools.com](https://www.w3schools.com/css/css3_gradients.asp).
 
 ### Media
 

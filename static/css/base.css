@@ -26,9 +26,19 @@ main {
     background-color:  #2a892a;
 }
 
-#topnav {
-    background-color: #184e18; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#257425,  #2a892a,  #2a892a);
+#second-navbar {
+    /* Code for linear gradients comes from w3schools.com
+    https://www.w3schools.com/css/css3_gradients.asp */
+    background-color: #2a892a; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#2a892a, #009900, #009900);
+}
+
+.dropdown-menu {
+    background-color: #009900;
+}
+
+.dropdown-item {
+    color: white;
 }
 
 /* Code about navbar color customization comes from Zim via stackoverflow
@@ -42,8 +52,10 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
 } 
 
 .footer {
-    background-color: #1e621e; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#1e621e, #257425, #257425);
+    /* Code for linear gradients comes from w3schools.com
+    https://www.w3schools.com/css/css3_gradients.asp */
+    background-color: #009900;/* For browsers that do not support gradients */
+    background-image: linear-gradient(#009900, #257425);
     width: 100%;
     text-align: center;
     color: honeydew;
