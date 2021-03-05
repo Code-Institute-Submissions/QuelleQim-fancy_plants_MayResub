@@ -19,7 +19,7 @@ main {
 }
 
 .text-primary {
-    color: seagreen !important;
+    color: honeydew !important;
 }
 
 
@@ -61,7 +61,7 @@ main {
 }
 
 .form-check-input {
-    background-color:seagreen !important;
+    background-color:#329a32 !important;
     border-color: black !important;
 }
 
@@ -363,6 +363,14 @@ input[name='q']::placeholder {
         font-size: 2rem;
     }
 
+    .navbar {
+        background-color: #257425;
+    }
+
+    .list-inline-item {
+        color: honeydew;
+    }
+
     .nav-link {
         padding: 0.15rem;
     }
@@ -374,6 +382,7 @@ input[name='q']::placeholder {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
+        color: honeydew;
     }
 
     #delivery-banner h4 {
