@@ -36,7 +36,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <!-- Stripe -->
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
@@ -152,6 +154,54 @@
 
     {% block content %}
     {% endblock %}
+
+
+
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="footer-headers">Information</h5>
+                <p class="">Address:
+                    <br>
+                    Placeholder address
+                    <br>
+                    12345, Placeholder City
+                    <br>
+                    phoneto: 0700123123
+                    <br>
+                    mailto: fancyplants@example.com
+                </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="footer-headers">Social Media</h5>
+                <ul>
+                    <li><a class="social-icon" href="#!">facebook</a></li>
+                    <li><a class="social-icon" href="#!">instagram</a></li>
+                    <li><a class="social-icon" href="#!">youtube</a></li>
+                </ul>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="footer-headers">Open Hours</h5>
+                <p class="">Monday - Friday:
+                    <br>
+                    9am - 6pm
+                    <br>
+                    Saturday - Sunday:
+                    <br>
+                    10am - 5pm
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container copyright-container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </div>
+
+
 
     {% block postloadjs %}
     <script type="text/javascript">
