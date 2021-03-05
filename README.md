@@ -63,7 +63,8 @@ and subscriptions.
 
 ### Content
 
-- Accordion in plantcare.html from [bootstrap](https://getbootstrap.com/docs/5.0/components/accordion/).
+- Code about how to format date in subscription/admin.py comes from [programiz](https://www.programiz.com/python-programming/datetime/strftime).
+    
 
 
 

@@ -23,6 +23,8 @@ class SubscriptionAdmin(admin.ModelAdmin):
         return subscription.order.email
 
     def get_date(self, subscription):
+        # Code about how to format date comes from:
+        # https://www.programiz.com/python-programming/datetime/strftime
         return subscription.order.date.strftime("%Y-%m-%d, %H:%M:%S")
 
     def get_phone_number(self, subscription):
