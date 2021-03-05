@@ -23,18 +23,19 @@ main {
 }
 
 .navbar-color {
-    background-color: #257425;
+    background-color:  #2a892a;
 }
 
 #topnav {
-    background-color: black; /* For browsers that do not support gradients */
-    background-image: linear-gradient(black, #257425);
+    background-color: #184e18; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#257425,  #2a892a,  #2a892a);
 }
 
 /*  */
 
 .footer {
-    background-color: black;
+    background-color: #1e621e; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#1e621e, #257425, #257425);
     width: 100%;
     text-align: center;
     color: honeydew;
