@@ -12,9 +12,9 @@ class Subscription(models.Model):
     delivery information and order history
     """
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
-                                     null=True, blank=True, related_name='subscriptions')
+                                     null=True, blank=True, related_name='subscription')
     order = models.ForeignKey(Order, null=False, blank=False,
-                              on_delete=models.CASCADE, related_name='subscriptions')
+                              on_delete=models.CASCADE, related_name='subscription')
     product = models.ForeignKey(
         Product, null=False, blank=False, on_delete=models.CASCADE)
 
