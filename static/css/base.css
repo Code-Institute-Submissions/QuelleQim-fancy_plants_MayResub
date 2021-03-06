@@ -396,12 +396,15 @@ a.category-badge > span.badge:hover {
         padding-top: 164px;
     }
 
+    .container-middle {
+        padding-bottom: 200px;
+    }
+
     .footer {
         position: fixed;
         left: 0px;
         bottom: 0px;
         width: 100%;
-        
     }
 }
 
