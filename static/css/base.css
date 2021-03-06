@@ -121,10 +121,6 @@ input[name='q']::placeholder {
     padding:  10px 12px 10px 12px !important;
 }
 
-.copyright-container {
-    color: silver;
-}
-
 .form-check-input {
     background-color:#329a32 !important;
     border-color: black !important;
@@ -380,10 +376,10 @@ a.category-badge > span.badge:hover {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
+    .container {
+        max-width: 80%;
+    }
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -398,12 +394,22 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
+
+    .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
+
+    
     .header-container {
-        padding-top: 85px;
+        padding-top: 100px;
     }
 
     body {
@@ -465,5 +471,9 @@ a.category-badge > span.badge:hover {
 
     .social-links-div {
         order: 3;
+    }
+
+    .footer {
+        padding-top: 200px;
     }
 }
