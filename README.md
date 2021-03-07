@@ -16,6 +16,42 @@ products and plant subscriptions.
 
 ### Wireframes (UI)
 
+- index/home page
+![index/home](/media/wireframes/index.jpg)
+
+- All products view
+![All Products](/media/wireframes/all-products.jpg)
+
+- Product details view
+![Products Details](/media/wireframes/product-details.jpg)
+
+- Shopping bag view
+![Shopping Bag](/media/wireframes/shopping-info.jpg)
+
+- Checkout view
+![Checkout](/media/wireframes/checkout.jpg)
+
+- Successfull checkout view
+![Checkout Success](/media/wireframes/checkout-success.jpg)
+
+- Plant care view
+![Plant Care](/media/wireframes/plant-care.jpg)
+
+- Plant Care Elements. Consists of four diffrent html views.
+![Plant Care Elements](/media/wireframes/plant-care-elements.jpg)
+
+- My profile view
+![My Profile](/media/wireframes/my-profile.jpg)
+
+- My subscription view
+![My Subscriptions](/media/wireframes/my-subscription.jpg)
+
+- Admin product management view
+![Product Management/Add/Edit](/media/wireframes/product-management-admin.jpg)
+
+- Register, Login and dropdown navbar in mobile view
+![Register/Login/dropdown navbar](/media/wireframes/sign-up-sign-in-nav.jpg)
+
 
 ## Features
 
