@@ -54,8 +54,41 @@ products and plant subscriptions.
 
 
 ## Features
+In this section the features of the different parts of this project will be described.
 
 ### Existing Features
+
+-	Feature 1 – base.html – base template that extends to all other html files. The base template contains meta, CSS, JavaScript and stripe tags, A navbar containing company name, search field and bag. If user is not logged in then it also views log in and register. If user is logged in it says my account, my subscriptions and lo out. If admin is logged in the product management will be visible. Not visible in the view but present in code is also message block content and a toast post load JavaScript tag. At the end a footer that contains company placeholder information, company open hours and social links (Facebook, Instagram and youtube). The footer is visible on all medium and up sized screens. Footer is not included on the mobile view.
+-	Feature 2 – index.html – background image of plants, a text box with company motto and a button that states “Shop Now” that redirects to all products.
+-	Feature 3 – navbar 1 – on medium sized screens and up: company name, search field, my account button and bag button.  On mobile view the company name is not displayed.
+-	Feature 4 – navbar 2 – navbar located beneath navbar number 1. On medium sized screens and up: all products, subscriptions, plants & more, special offers, plants care buttons. On mobile view: the navbar is collapsed and firstly only visible via a hamburger icon. When pressed it reveals home, all products, subscriptions, plants & more, special offers, and plant care buttons.
+-	Feature 5 – all products – a view that displays all products in a grid view and divides rows with a thematic break.
+-	Feature 6 – products sorted by category – buttons: subscriptions, plants, pots, tools, accessories, new arrivals and clearance all show products after category. For example, when pressing the pots button, the view will show all products available in the pots category.
+-	Feature 7 – plantcare.html – shows four images with four different headings, all of these are links to a different html pages with said heading info.
+-	Feature 8 – plantcare.html – plant care elements – text containers with information about plant care in four different themes. 
+-	Feature 9 – search field – searches for product name and renders hits in view with grid layout.
+-	Feature 10 – profile.html – my profile – Default delivery information:  7 input field column form and button that when clicked updates the user information to the database. Order history: shows previous orders with order number, date and order total.  
+-	Feature 11 – subscriptions.html – my subscriptions – to be implemented, contains currently heading subscription options and my subscriptions.
+-	Feature 12 – products/add.html – product management – view for admin only. Contains a form with 7 input fields in columns:  category, sku, name, description, price, rating and image url with select image button that downloads image. Two buttons at bottom: cancel and add product, which either redirects the user back or saves the product in database.
+-	Feature 13 – products/edit.html – same view as feature 12 but with a products previous information saved and editable.
+-	Feature 14 – bag.html – shopping bag – if empty, shows text “Your bag is empty” and button “keep shopping” that redirects back to products.html. If not empty, products render beneath each other with information headings: product info, price, qty, subtotal, product name, sku, bag total and delivery cost. Underneath top headings are buttons for update, remove, increment and decrement. Update button save a new quantity of product and remove button removes product from bag. 
+-	Feature 15 – checkout.html – checkout – form with 9 input fields columns: full name, email, phone number, street address 1, street address 2 (optional), town or city, county (optional), post code and country. Beneath the form is a checkbox, when checked the form information will be saved to the user profile. Beneath checkbox: payment input field for card number, month, year, CVC and post code for payment which is connected to stripe. Beneath checkbox: two buttons, “adjust bag” redirects back to bag.html, “complete order” initializes a payment. Order summary heading is followed by bags product content and order info. When complete order button is clicked a animation of a spinning arrow is initialized.
+-	Feature 16 – checkout_success.html – successful checkout – heading stating “Thank you”, confirmation of email sent to input email. Order info in column, same as in feature 15. Success message with confirmations number and stating confirmation has been sent to inputs email. At bottom button “now check out the latest deals” redirects to products.html.
+-	Feature 17 – admin.html - admin Django view – shows 11 functions in which the content of these can be added or edited.
+-	Feature 18 – admin/emailaddress.html – email addresses – lets admin add, verify, select email to primary and delete. 
+-	Feature 19 - admin/group.html – standard Django admin function which is not used in this project.
+-	Feature 20 - admin/user.html – users – allows admin to add, edit, give permissions (active, staff status, superuser status), check important dates and delete users.
+-	Feature 21 - admin/order.html – orders – allows admin to create, edit, delete and view information about orders.
+-	Feature 22 - admin/category.html – categories – allows admin to view, edit and remove a category.
+-	Feature 23 - admin/product.html – products – allows admin to view, edit and delete a product.
+-	Feature 24 - admin/site -sites - standard Django admin function which is not used in this project.
+-	Feature 25 - admin/socialaccount – social account - standard Django admin function which is not used in this project.
+-	Feature 26 - admin/socialapplicationtoken.html – social application tokens - standard Django admin function which is not used in this project.
+-	Feature 27 - admin/socialapplication.html – social applications - standard Django admin function which is not used in this project.
+-	Feature 26 - admin/subscription.html – subscriptions – allows admin to add, edit, view and delete a subscription.
+
+
+
 
 ### Features left to implement
 
