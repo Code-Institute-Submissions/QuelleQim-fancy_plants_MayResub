@@ -5,7 +5,7 @@ from .models import Subscription
 from checkout.models import Order, OrderLineItem
 
 
-Register your models here.
+# Register your models here.
 
 
     # Code about how to make readonly_fields with ModelAdmin comes from:
