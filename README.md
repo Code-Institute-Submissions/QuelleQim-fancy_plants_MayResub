@@ -4,8 +4,8 @@ Welcome to the README file of the project Fancy Plants.
 This is the fourth and final school project of the Code Institute 
 fulsstack developer course. This projects main purpose is to display my
 skills in HTML, CSS, Bootstrap, Python and Django. The webpage named
-Fancy Plants is a online store that aims to sell plant related products
-and subscriptions.
+Fancy Plants is a online store that aims to sell plants, plant related
+products and plant subscriptions.
 
 
 ## UX/UI
@@ -67,6 +67,7 @@ and subscriptions.
 - Code about how to add readonly_fields with ModelAdmin in subscription/admin.py comes from [jnns via stackoverflow](https://stackoverflow.com/questions/44718355/how-show-related-object-in-django-admin-from-the-model-with-a-foreign-key-point#44725212).
 - Code about how to change custom color of navbar in base.css comes from[Zim via stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color).
 - Code for linear gradients in base.css comes from [w3schools.com](https://www.w3schools.com/css/css3_gradients.asp).
+- Code for checkboxes comes from [bootstrap](https://getbootstrap.com/docs/5.0/forms/checks-radios/).
 
 ### Media
 
