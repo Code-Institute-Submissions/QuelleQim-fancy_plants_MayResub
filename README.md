@@ -74,10 +74,14 @@ products and plant subscriptions.
 #### Images
 
 - Webpage background image made by Mitchel Lensink and retrived from [unsplash](https://unsplash.com/photos/DFIl2Kw6ulw).
-- Water image 
-- Sun image 
-- Earth image 
-- Cloud image 
+
+- Water image by Wesley Tingey, image retrived via [unsplashed](https://unsplash.com/photos/9-OCsKoyQlk).
+
+- Sun image by Ivan Torres, image retrived via [unsplashed](https://unsplash.com/photos/AXz346Rhs6A).
+
+- Earth image by Gabriel Jimenez, image retrived via [unsplashed](https://unsplash.com/photos/jin4W1HqgL4).
+
+- Cloud image by Billy Huynh, image retrived via [unsplashed](https://unsplash.com/photos/v9bnfMCyKbg).
 
 ##### Subscriptions boxes Category
 - Image of beginner box made by Peter Žagar and retrived from [unsplash](https://unsplash.com/photos/bLgWa9b0ioY).
