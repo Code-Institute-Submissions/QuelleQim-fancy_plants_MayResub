@@ -88,21 +88,42 @@ In this section the features of the different parts of this project will be desc
 -	Feature 26 - admin/subscription.html – subscriptions – allows admin to add, edit, view and delete a subscription.
 
 
-
-
 ### Features left to implement
-
+- Feature 11 as mentioned above ought to give user more control over their subscriptions. With checkboxes stating diffrent options for the subscription boxes and save button so that the user can easily and quickly edit their subscription if their plant enviroment changes.
+- Feature 11 also should show previously bought subscription boxes and the content of said box.
 
 ## Technologies Used
 
+
+
+### Database
+
+- Amazon web services - The project uses amazon to store media and static files.
+
 ### Languages
+
+- HTML - The project uses HTML to create visable content.
+- CSS - The project uses CSS to style the HTML code.
+- Python - The project uses python togheter with the database and Django.
+- JavaScript - The project uses JavaScript for functions that were more easily applied that with using Python.
 
 ### Framework
 
+- Django - The project uses Django to enable rapid development for a secure and maintanable website.
+- Bootstrap - The project uses materialize to simplify the customization of the HTML and CSS code.
+
 ### Library
+
+- Google fonts - The project uses google fonts libary to customize text.
+- Font awesome - The project uses font awesome to customize the webpage with custom icons.
+
+### Hosting platform
+
+- Heroku - The project uses heroku as cloud hosting platform.
 
 ### Other Technologies
 
+- Stripe
 
 ## Testing
 
