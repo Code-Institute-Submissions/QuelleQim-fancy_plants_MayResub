@@ -129,6 +129,35 @@ In this section the features of the different parts of this project will be desc
 
 ### Manual Testing
 
+The manual testing is executed with the following method:
+
+Page > action taken > expected result > pass/fail
+
+1. index.html > press 'shop now' button > redirects products.html > pass
+2. index.html > press 'all products' button > redirects products.html > pass
+3. index.html > press 'subscriptions' button > redirects products-category-subscription_box.html > pass
+4. index.html > press 'plants & more' button > opens dropdown menu with five buttons > pass
+5. index.html > press buttons individually in 'plants & more' drop down menu > redirect to correct page > pass
+6. index.html > press 'special offers' button > opens dropdown menu with three buttons > pass
+7. index.html > press buttons individually in 'plants & more' drop down menu > redirect to correct page > pass
+8. index.html > press 'plant care' button > redirect to plantcare.html > pass
+9. plantcare.html > press all four individual plant care element buttons > redirect to plantcare/water.html, plantcare/sun.html, plantcare/earth.html, plantcare/air.html> pass
+10. index.html > press my 'account' button > if not logged in, show buttons 'register' and 'login' > pass
+11. index.html > press my 'account' button > if user is logged in, show buttons 'my profile', 'my subscriptions' and 'logout' > pass
+12. index.html > press my 'account' button > if superuser is logged in, show buttons 'product management', 'my profile', 'my subscriptions' and 'logout' > pass
+13. index.html > press 'bag' button > if no products added, redirect to bag.html and show empty bag > pass
+14. index.html > press 'bag' button > if products added, redirect to bag.html and show bag with products inside > pass
+15. bag.html > press 'secure checkout' button >  redirect to checkout.html > pass
+16. bag.html > fill out form and press 'complete order' button > redirect animated loading image and then to checkout_success.html > pass
+17. profile.html > change form info and press 'update information' button > new info saved and rendered in profile.html and success message displayed > pass
+18. products/add.html > fill out form correctly and press 'add product' > item saved in products, success message rendered and redirected to product in product details view > pass
+19. products/add.html > fill out form incorrectly and press 'add product' > page refuses 'add product' button functionality and demand correct input > pass
+20. products/item.html > press 'delete' button > delete product, render success message and redirect to products.html > pass
+21. accounts/signup.html > fill out for correctly and press 'sign up' button > user is saved in database and success message shown *
+
+
+
+
 ### Webpage Images
 
 
