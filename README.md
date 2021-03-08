@@ -181,7 +181,36 @@ In this section the features of the different parts of this project will be desc
 
 ## Deployment
 
-### 
+The project has been deployed from [github](https://github.com) to [heroku](https://heroku.com).
+
+How the project is deployed: 
+Accessed heroku webpage, navigate to settings. In 'Config Vars' all relevant variables connectable
+to github, amazon and stripe had been entered.  See table: 
+
+Enviroment variables | Example description
+------------ | -------------
+AWS_ACCESS_KEY_ID | amazon web services id key
+AWS_SECRET_ACCESS_KEY | amazon web service secret access key
+DATABASE_URL | key for database url
+EMAIL_HOST_PASS | key for Django email hosting
+EMAIL_HOST_USER | key for setting email host account
+SECRET_KEY | secret key to access Django
+STRIPE_PUBLIC_KEY | stripe public key
+STRIPE_SECRET_KEY | stripe secret key
+STRIPE_WH_SECRET | stripe secret webhook key
+USE_AWS | key for amazon web service usage
+
+
+After input of enviroment variables, navigate to 'deploy'. In 'deployment method' github was selected. 
+A couple of minutes of heroku builing the app later states: 'Build succeeded' and ' Deployed', meaning
+the project was uploaded to heroku and responsive. 'App connected to GitHub' states that the project
+is connected to the correct github user and states that it is deployed from master branch.
+'Automatic deploys' are enabled, when a push is made in gitpod then heroku will deploy directly after.
+
+Since the version on heroku is rooted from the github repository's master branch there is no
+difference between the deployed version on heroku and the github repository, except for a minor
+delay of a few minutes. To run the project localy one needs to clone the github repository
+and run code 'python3 manage.py runserver' from terminal.
 
 
 ## Credits
