@@ -134,35 +134,36 @@ In this section the features of the different parts of this project will be desc
 
 ![index/home](/media/webpage-images/index-home.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![all products](/media/webpage-images/all-products.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![product detail](/media/webpage-images/product-details.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![shopping bag empty](/media/webpage-images/shopping-bag-empty.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![shopping bag success increment](/media/webpage-images/shopping-bag-success-increment.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![checkout](/media/webpage-images/checkout.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![checkout-loading](/media/webpage-images/checkout-loading.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![checkout-success](/media/webpage-images/checkout-success.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![plant care](/media/webpage-images/plant-care.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![plant care elements](/media/webpage-images/plant-care-element.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![my profile](/media/webpage-images/my-profile.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![my-subscriptions](/media/webpage-images/my-subscriptions.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![product management add](/media/webpage-images/product-management-add.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![product management edit](/media/webpage-images/product-management-edit.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![register](/media/webpage-images/register.jpg)
 
-![index/home](/media/webpage-images/index-home.jpg)
+![login](/media/webpage-images/login.jpg)
+
 
 
 ### W3C Validator
