@@ -16,7 +16,31 @@ https://fancy-plants.herokuapp.com/
 
 ### User Stories (UX)
 
+As a user type, I want to be able to:
+- view, buy and learn about plants and plant related products.
+- make a purchase online.
+- recive information about my purchase.
+- buy plant subscriptions.
+- make a personalized account.
+- see previous orders.
+- learn about plant care.
+- to view an appealing website that make me want to come back to it.
+
+
+
 ### Owner Stories (UX)
+
+As a owner type, I want:
+- to have an online shop where users can buy plants and plant related products.
+- to create, view, edit and delete products that are for sale.
+- for users to be able to make purchases online
+- to be able to see documentation about a users purchase.
+- to sell plant subscriptions and have a system where I can save information about this. 
+- for users to be able to create personalized accounts and save information therein.
+- to store, view, edit and delete customer and order information.
+- to provide information about plant care so that users learn about the product and purchase more.
+- to own an appealing website that makes users revisit.
+
 
 ### Wireframes (UI)
 
@@ -48,7 +72,7 @@ https://fancy-plants.herokuapp.com/
 ![My Profile](/media/wireframes/my-profile.jpg)
 
 - My subscription view
-![My Subscriptions](/media/wireframes/my-subscription.jpg)
+![My Subscriptions](/media/wireframes/my-subscriptions.jpg)
 
 - Admin product management view
 ![Product Management/Add/Edit](/media/wireframes/product-management-admin.jpg)
@@ -96,6 +120,7 @@ In this section the features of the different parts of this project will be desc
 - Feature 11 as mentioned above ought to give user more control over their subscriptions. With checkboxes stating diffrent options for the subscription boxes and save button so that the user can easily and quickly edit their subscription if their plant enviroment changes.
 - Feature 11 also should show previously bought subscription boxes and the content of said box.
 - To increace the amount a customer returns to the website there should be a newsletter optio, which will inform and give discount to subscribed customers.
+- Adds, which in turn will render more revenue to the company.
 
 ## Technologies Used
 
@@ -127,7 +152,12 @@ In this section the features of the different parts of this project will be desc
 
 ### Other Technologies
 
-- Stripe - The project uses heroku as a method for payment.
+- Pip3 - The project uses pip3 to install multiple tools used in the project.
+- Stripe - The project uses [stripe](https://stripe.com/en-se) as a method for payment.
+- Hatchful - The project uses [Hatchful](https://hatchful.shopify.com/) for creation of favicon.
+- Paint3D - The project uses Paint3D for editing of Hatchful favicon.
+- Marvel - the wireframes made for this project was made with [marvel](https://marvelapp.com/).
+
 
 ## Testing
 
@@ -210,10 +240,10 @@ Page > action taken > expected result > pass/fail
 
 ### Bugs Fixed
 
+- After deploying the project to heroku there was a problem with adding and rendering images in html. This was because of the redirection not being automatically set to amazon s3. Therefore the code {{ MEDIA_URL }} had to be set before the image source instead of /media/. 
 
 
 ### Known Issues
-
 
 
 
