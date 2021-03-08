@@ -153,9 +153,10 @@ Page > action taken > expected result > pass/fail
 18. products/add.html > fill out form correctly and press 'add product' > item saved in products, success message rendered and redirected to product in product details view > pass
 19. products/add.html > fill out form incorrectly and press 'add product' > page refuses 'add product' button functionality and demand correct input > pass
 20. products/item.html > press 'delete' button > delete product, render success message and redirect to products.html > pass
-21. accounts/signup.html > fill out for correctly and press 'sign up' button > user is saved in database and success message shown *
-
-
+21. accounts/signup.html > fill out for correctly and press 'sign up' button > user is saved in database and alert message shown and redirected to confirm-email.html > pass 
+22. accounts/signup.html > fill out form incorrectly and press 'sign up' button > page refuses 'sign up' button functionality and demands correct information > pass
+23. accounts/login.html > 
+24. accounts/login.html > 
 
 
 ### Webpage Images
