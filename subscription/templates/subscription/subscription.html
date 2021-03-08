@@ -23,14 +23,15 @@
         <div class="col-12 col-lg-6">
             <h5 class="text-muted">Subscription Options</h5>
             <p>Customize your subscription boxes by clicking the checkbox options that suit your home. </p>
-            <form class="mt-3" action="{% url 'subscription' %}" method="POST" id="subscription-update-form">
+            <h4>Coming soon!</h4>
+            <!-- <form class="mt-3" action="{% url 'subscription' %}" method="POST" id="subscription-update-form">
                 {% csrf_token %}
                 {{ form|crispy }}
             </form>
-            <div class="form-check">
-                <!-- Checkboxes from bootstrap
+            <div class="form-check"> -->
+            <!-- Checkboxes from bootstrap
                     https://getbootstrap.com/docs/5.0/forms/checks-radios/ -->
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+            <!-- <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
                 <label class="form-check-label" for="flexCheckDefault">
                     Low light
                 </label>
@@ -46,15 +47,15 @@
                 </label>
                 <br>
                 <br>
-                <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
-            </div>
-            <br>
-            <br>
+                <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button> -->
         </div>
+        <br>
+        <br>
         <div class="col-12 col-lg-6">
             <h5 class="text-muted">My Subscriptions</h5>
             <p>Here you can see your previously bought subscriptions boxes and their content, date and number.</p>
-            <div class="order-history table-responsive">
+            <h4>Coming soon!</h4>
+            <!-- <div class="order-history table-responsive">
                 <table class="table table-sm table-borderless">
                     <thead>
                         <tr>
@@ -75,10 +76,11 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
+
 {% endblock %}
 
 {% block postloadjs %}

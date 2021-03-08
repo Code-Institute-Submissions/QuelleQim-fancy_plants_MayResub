@@ -91,9 +91,9 @@ In this section the features of the different parts of this project will be desc
 ### Features left to implement
 - Feature 11 as mentioned above ought to give user more control over their subscriptions. With checkboxes stating diffrent options for the subscription boxes and save button so that the user can easily and quickly edit their subscription if their plant enviroment changes.
 - Feature 11 also should show previously bought subscription boxes and the content of said box.
+- To increace the amount a customer returns to the website there should be a newsletter optio, which will inform and give discount to subscribed customers.
 
 ## Technologies Used
-
 
 
 ### Database
@@ -123,13 +123,47 @@ In this section the features of the different parts of this project will be desc
 
 ### Other Technologies
 
-- Stripe
+- Stripe - The project uses heroku as a method for payment.
 
 ## Testing
 
 ### Manual Testing
 
 ### Webpage Images
+
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
+![index/home](/media/webpage-images/index-home.jpg)
+
 
 ### W3C Validator
 
