@@ -7,6 +7,10 @@ skills in HTML, CSS, Bootstrap, Python and Django. The webpage named
 Fancy Plants is a online store that aims to sell plants, plant related
 products and plant subscriptions.
 
+Direct link to active website:
+
+https://fancy-plants.herokuapp.com/
+
 
 ## UX/UI
 
@@ -153,10 +157,10 @@ Page > action taken > expected result > pass/fail
 18. products/add.html > fill out form correctly and press 'add product' > item saved in products, success message rendered and redirected to product in product details view > pass
 19. products/add.html > fill out form incorrectly and press 'add product' > page refuses 'add product' button functionality and demand correct input > pass
 20. products/item.html > press 'delete' button > delete product, render success message and redirect to products.html > pass
-21. accounts/signup.html > fill out for correctly and press 'sign up' button > user is saved in database and alert message shown and redirected to confirm-email.html > pass 
+21. accounts/signup.html > fill out form correctly and press 'sign up' button > user is saved in database and alert message shown and redirected to confirm-email.html > pass 
 22. accounts/signup.html > fill out form incorrectly and press 'sign up' button > page refuses 'sign up' button functionality and demands correct information > pass
-23. accounts/login.html > 
-24. accounts/login.html > 
+23. accounts/login.html > fill out form correctly and press 'sign in' button > user is checked in database and in existing, log in correct user > pass
+24. accounts/login.html > fill out form incorrectly and press 'sign in' button > page refuses 'sign in' button functionality and demands correct information > pass
 
 
 ### Webpage Images
@@ -198,15 +202,19 @@ Page > action taken > expected result > pass/fail
 
 ### W3C Validator
 
-### w3 Validator
+- The online project was tested in W3C validator and recived 7 errors and 2 warnings. The test was conducted 8/3-2021, 21:00. 
+[Validator.w3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffancy-plants.herokuapp.com%2F)
 
-### jshint
 
 ### Automated Testing
 
 ### Bugs Fixed
 
+
+
 ### Known Issues
+
+
 
 
 ## Deployment
@@ -248,10 +256,15 @@ and run code 'python3 manage.py runserver' from terminal.
 ### Content
 
 - Code about how to format date in subscription/admin.py comes from [programiz](https://www.programiz.com/python-programming/datetime/strftime).
+
 - Code about how to add readonly_fields with ModelAdmin in subscription/admin.py comes from [jnns via stackoverflow](https://stackoverflow.com/questions/44718355/how-show-related-object-in-django-admin-from-the-model-with-a-foreign-key-point#44725212).
+
 - Code about how to change custom color of navbar in base.css comes from[Zim via stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color).
+
 - Code for linear gradients in base.css comes from [w3schools.com](https://www.w3schools.com/css/css3_gradients.asp).
+
 - Code for checkboxes in subscription.html comes from [bootstrap](https://getbootstrap.com/docs/5.0/forms/checks-radios/).
+
 
 ### Media
 
