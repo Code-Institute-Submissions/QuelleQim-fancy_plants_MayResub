@@ -20,14 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
-if 'SECRET_KEY' in os.environ:
-    SECRET_KEY = os.environ.get('SECRET_KEY', '')
-else:
-    SECRET_KEY = 'c3j$q*wjjedri9%5fpxitf%iwn5$o02#3@$-2#iohdqfm$#2qb'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['fancy-plants.herokuapp.com', 'localhost']
