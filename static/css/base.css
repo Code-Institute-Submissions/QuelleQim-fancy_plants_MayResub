@@ -223,8 +223,9 @@ a.category-badge > span.badge:hover {
     padding: 12px 13px 12px 13px;
 }
 
-
-
+.all-products-card {
+    max-height: 300px;
+}
 
 
 /* ----- Product Form ----- */
